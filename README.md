@@ -1,7 +1,7 @@
 # Adobe XMP Metadata reader
 ![screenshot_adobe_metadata_2](https://github.com/user-attachments/assets/4a5dc664-251e-45c2-b02f-6a1a41c167d9)
 
-## **Get-AdobeMetaData**
+## **Get-AdobeMetadata**
 The functions can be used for Adobe automation. This will either grab the XMP data directly or utilize ExifTool to grab it. The Data is stored in a hash table.
 
 **$AdobeMetadata = Get-AdobeMetadata -AdobeFile $AdobeFile -ExifTool $ExifTool**
