@@ -15,8 +15,7 @@ Two options are available
 **$AdobeMetadata = Get-AdobeMetadata -AdobeFile $AdobeFile -ExifTool $ExifTool -OutputXMP**
 - To output a formatted text file: **OutputTXT**<br />
 **$AdobeMetadata = Get-AdobeMetadata -AdobeFile $AdobeFile -ExifTool $ExifTool -OutputTXT**
-
-They can be used together.
+They can be used together. The output will be the same location and name as the input with **_metadata** added to the filename. 
 
 ## **List-AdobeMetadata**
 This will list the collected Metadata and can be used to save the metadata to a text file.
