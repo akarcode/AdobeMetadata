@@ -13,8 +13,8 @@ After running the function any parameter can be read from the $AdobeMetadata var
 Two options are available
 - To output the XMP data: **OutputXMP**<br />
 **$AdobeMetadata = Get-AdobeMetadata -AdobeFile $AdobeFile -ExifTool $ExifTool -OutputXMP**
-- To output a formatted text file: **OutputTXT**
-- **$AdobeMetadata = Get-AdobeMetadata -AdobeFile $AdobeFile -ExifTool $ExifTool -OutputTXT**
+- To output a formatted text file: **OutputTXT**<br />
+**$AdobeMetadata = Get-AdobeMetadata -AdobeFile $AdobeFile -ExifTool $ExifTool -OutputTXT**
 
 They can be used together.
 
@@ -23,10 +23,10 @@ This will list the collected Metadata and can be used to save the metadata to a 
 **List-AdobeMetadata $AdobeMetadata**
 
 Two options are available
-- To silence the log output: **Quiet**
-- **List-AdobeMetadata -Quiet**
-- To capture the formatted metadata **Output**
-- **$FormattedMetadata = List-AdobeMetadata $AdobeMetadata -Output**
+- To silence the log output: **Quiet**<br />
+**List-AdobeMetadata -Quiet**
+- To capture the formatted metadata **Output**<br />
+**$FormattedMetadata = List-AdobeMetadata $AdobeMetadata -Output**
 
 
 ## **TestFiles**
