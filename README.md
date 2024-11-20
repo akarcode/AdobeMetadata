@@ -15,6 +15,7 @@ Two options are available
 - **$AdobeMetadata = Get-AdobeMetadata -AdobeFile $AdobeFile -ExifTool $ExifTool -OutputXMP**
 - To output a formatted text file: **OutputTXT**
 - **$AdobeMetadata = Get-AdobeMetadata -AdobeFile $AdobeFile -ExifTool $ExifTool -OutputTXT**
+
 They can be used together.
 
 ## **List-AdobeMetadata**
@@ -31,7 +32,7 @@ Two options are available
 ## **TestFiles**
 I've included two testfiles.
 - **xmp_photoshop.xml** this is all the properties found in Photoshop **File>File Info...**.
-- **xmp_cases** this is all different XMP structures that i came across. There are most probably more but i don't know.
+- **xmp_cases.xml** this is all different XMP structures that i came across. There are most probably more but i don't know.
 
 
 ## **Additional Notes**
