@@ -1,6 +1,5 @@
 # Adobe XMP Metadata reader
-![screenshot_adobe_metadata](https://github.com/user-attachments/assets/aee791c2-aaae-4d47-9864-a533b96f0c6b)
-
+![screenshot_adobe_metadata_2](https://github.com/user-attachments/assets/4a5dc664-251e-45c2-b02f-6a1a41c167d9)
 
 ## **Get-AdobeMetaData**
 The functions can be used for Adobe automation. This will either grab the XMP data directly or utilize ExifTool to grab it. The Data is stored in a HashArray.
@@ -12,7 +11,8 @@ After running the function any parameter can be read from the $AdobeMetadata var
 - A specific value: **$AdobeMetaData['Basic']['CreatorTool']**
 
 Two options are available
-- To output the XMP data: **OutputXMP**<br/>**$AdobeMetadata = Get-AdobeMetadata -AdobeFile $AdobeFile -ExifTool $ExifTool -OutputXMP**
+- To output the XMP data: **OutputXMP**
+**$AdobeMetadata = Get-AdobeMetadata -AdobeFile $AdobeFile -ExifTool $ExifTool -OutputXMP**
 - To output a formatted text file: **OutputTXT**
 **$AdobeMetadata = Get-AdobeMetadata -AdobeFile $AdobeFile -ExifTool $ExifTool -OutputTXT**
 They can be used together.
