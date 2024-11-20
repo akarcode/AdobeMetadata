@@ -37,13 +37,13 @@ I've included two testfiles.
 
 ## **Additional Notes**
 - Adobe Premiere (*.prproj) does not have XMP data stored. 'prproj' files are *.zip files.
-- After Effects (*.aep) has XMP info stored in the Binary. ExifTool fails to grab it for some reason. Trimmin it out of the Binary does not always work.
+- After Effects (*.aep) has XMP info stored in the Binary. ExifTool fails to grab it for some reason. Trimming it out of the Binary does not always work.
 - Adobe InDesign (*.idml) is also a *.zip file. The XMP data is directly opened from within the file.
 - XMP/XML files can be read directly and then parsed. If **-OutputXMP** is used it will be ignored to avoid overwriting the input.
 
 
 ## **Dependencies**
-You'll need ExifTool by Phil Harvey to read out the XMP Metadata.
+You'll need ExifTool by Phil Harvey to read out the raw XMP Metadata.
 
 
 ## Changelog
