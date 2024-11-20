@@ -1,0 +1,225 @@
+<x:xmpmeta
+	xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 0">
+	<rdf:RDF
+		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+		<rdf:Description rdf:about=""
+			xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+			xmlns:Iptc4xmpExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/"
+			xmlns:plus="http://ns.useplus.org/ldf/xmp/1.0/"
+			xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#">
+			<xmp:CreatorTool>Adobe Application 00.0 (Windows)</xmp:CreatorTool>
+			<dc:DateandTimeZone>2024-11-11T03:28:16+07:00</dc:DateandTimeZone>
+			<dc:DateandTime>2024-01-01T01:02:03</dc:DateandTime>
+			<dc:SingleProperty>Single Property</dc:SingleProperty>
+			<dc:SinglePropertyNested>
+				<rdf:Alt>
+					<rdf:li xml:lang="x-default">Nested Property</rdf:li>
+				</rdf:Alt>
+			</dc:SinglePropertyNested>
+			<dc:SeqList>
+				<rdf:Seq>
+					<rdf:li>This a</rdf:li>
+					<rdf:li>list of</rdf:li>
+					<rdf:li>properties</rdf:li>
+					<rdf:li>inside a</rdf:li>
+					<rdf:li>Bag or Seq</rdf:li>
+				</rdf:Seq>
+			</dc:SeqList>
+			<dc:MultilineProperty>
+				<rdf:Alt>
+					<rdf:li xml:lang="x-default">This is a&#xA;multiline&#xA;property</rdf:li>
+				</rdf:Alt>
+			</dc:MultilineProperty>
+			<xmpMM:InstanceID>xmp.iid:15329d2e-ed2a-9a43-befc-c2029a264279</xmpMM:InstanceID>
+			<xmpMM:DocumentID>adobe:docid:photoshop:88c455bb-56ab-2c4a-994e-36af324932d1</xmpMM:DocumentID>
+			<xmpMM:OriginalDocumentID>xmp.did:724f3c8f-4e32-a949-ae54-5b9dc0006aa9</xmpMM:OriginalDocumentID>
+			<Iptc4xmpExt:BagWithResourceList>
+				<rdf:Bag>
+					<rdf:li rdf:parseType="Resource">
+						<Iptc4xmpExt:SinglePropertyNestedInResource>
+							<rdf:Alt>
+								<rdf:li xml:lang="x-default">Nested Property inside Resource List</rdf:li>
+							</rdf:Alt>
+						</Iptc4xmpExt:SinglePropertyNestedInResource>
+						<Iptc4xmpExt:SinglePropertyInResourceList>Single Property inside Resource List</Iptc4xmpExt:SinglePropertyInResourceList>
+						<Iptc4xmpExt:NestedSeq>
+							<rdf:Seq>
+								<rdf:li>This a</rdf:li>
+								<rdf:li>list of</rdf:li>
+								<rdf:li>properties</rdf:li>
+								<rdf:li>inside a</rdf:li>
+								<rdf:li>nested</rdf:li>
+								<rdf:li>Bag or Seq</rdf:li>
+							</rdf:Seq>
+						</Iptc4xmpExt:NestedSeq>
+						<Iptc4xmpExt:SinglePropertyInsideSeq>
+							<rdf:Seq>
+								<rdf:li>Nick Zimmermann</rdf:li>
+							</rdf:Seq>
+						</Iptc4xmpExt:SinglePropertyInsideSeq>
+						<Iptc4xmpExt:AnotherSinglePropertyInResourceList>Another Single Property inside Bag Resource List</Iptc4xmpExt:AnotherSinglePropertyInResourceList>
+					</rdf:li>
+					<rdf:li rdf:parseType="Resource">
+						<Iptc4xmpExt:SecondListProperty>This would be another List</Iptc4xmpExt:SecondListProperty>
+						<Iptc4xmpExt:ResourceInsideBag rdf:parseType="Resource">
+							<stRef:SingleProperty>This is a Single Property inside a Bag inside a Resource</stRef:SingleProperty>
+							<stRef:lastURL>file:///Users/nick/Documents/N%20A%20M%20E/Some%20File.jpg</stRef:lastURL>
+						</Iptc4xmpExt:ResourceInsideBag>
+						<Iptc4xmpExt:NestedBagLevel1>
+							<rdf:Bag>
+								<rdf:li rdf:parseType="Resource">
+									<Iptc4xmpExt:NestedBagLevel1SingleProperty>Single Property one level deep</Iptc4xmpExt:NestedBagLevel1SingleProperty>
+									<Iptc4xmpExt:NestedBagLevel2>
+										<rdf:Bag>
+											<rdf:li rdf:parseType="Resource">
+												<Iptc4xmpExt:NestedBagLevel2SingleProperty>This can keep go deeper</Iptc4xmpExt:NestedBagLevel2SingleProperty>
+												<Iptc4xmpExt:DeeperSeq>
+													<rdf:Seq>
+														<rdf:li>This a</rdf:li>
+														<rdf:li>list of</rdf:li>
+														<rdf:li>properties</rdf:li>
+														<rdf:li>inside</rdf:li>
+														<rdf:li>level2</rdf:li>
+														<rdf:li>Bag or Seq</rdf:li>
+													</rdf:Seq>
+												</Iptc4xmpExt:DeeperSeq>
+												<Iptc4xmpExt:MultilineProperty>
+													<rdf:Alt>
+														<rdf:li xml:lang="x-default">This is a&#xA;multiline&#xA;property</rdf:li>
+													</rdf:Alt>
+												</Iptc4xmpExt:MultilineProperty>
+											</rdf:li>
+										</rdf:Bag>
+									</Iptc4xmpExt:NestedBagLevel2>
+									<Iptc4xmpExt:NestedBagLevel1AnotherSingle>Another single property after</Iptc4xmpExt:NestedBagLevel1AnotherSingle>
+								</rdf:li>
+							</rdf:Bag>
+						</Iptc4xmpExt:NestedBagLevel1>
+					</rdf:li>
+					<rdf:li rdf:parseType="Resource">
+						<Iptc4xmpExt:SecondListProperty>Single Property</Iptc4xmpExt:SecondListProperty>
+						<Iptc4xmpExt:NestedBag0>
+							<rdf:Bag>
+								<rdf:li rdf:parseType="Resource">
+									<Iptc4xmpExt:NestedBag0SingleProperty>Single Property 0</Iptc4xmpExt:NestedBag0SingleProperty>
+								</rdf:li>
+							</rdf:Bag>
+						</Iptc4xmpExt:NestedBag0>
+						<Iptc4xmpExt:NestedBag1>
+							<rdf:Bag>
+								<rdf:li rdf:parseType="Resource">
+									<Iptc4xmpExt:NestedBag1SingleProperty>Single Property 1</Iptc4xmpExt:NestedBag1SingleProperty>
+								</rdf:li>
+							</rdf:Bag>
+						</Iptc4xmpExt:NestedBag1>
+						<Iptc4xmpExt:NestedBag2>
+							<rdf:Bag>
+								<rdf:li rdf:parseType="Resource">
+									<Iptc4xmpExt:NestedBag2SingleProperty>Single Property 2</Iptc4xmpExt:NestedBag2SingleProperty>
+								</rdf:li>
+							</rdf:Bag>
+						</Iptc4xmpExt:NestedBag2>
+						<Iptc4xmpExt:NestedBag3>
+							<rdf:Bag>
+								<rdf:li rdf:parseType="Resource">
+									<Iptc4xmpExt:NestedBag3SingleProperty>test that subnode names are not stacked</Iptc4xmpExt:NestedBag3SingleProperty>
+								</rdf:li>
+							</rdf:Bag>
+						</Iptc4xmpExt:NestedBag3>
+					</rdf:li>
+				</rdf:Bag>
+			</Iptc4xmpExt:BagWithResourceList>
+			<Iptc4xmpExt:EditedPropertyIPTC>http://cv.iptc.org/newscodes/digitalsourcetype/print</Iptc4xmpExt:EditedPropertyIPTC>
+			<plus:EditedPropertyPlusIPTC>http://ns.useplus.org/ldf/vocab/AG-A20</plus:EditedPropertyPlusIPTC>
+			<Iptc4xmpExt:LongList>
+				<rdf:Bag>
+					<rdf:li rdf:parseType="Resource">
+						<Iptc4xmpExt:LongList0>Single Property 0</Iptc4xmpExt:LongList0>
+					</rdf:li>
+					<rdf:li rdf:parseType="Resource">
+						<Iptc4xmpExt:LongList1>Single Property 1</Iptc4xmpExt:LongList1>
+					</rdf:li>
+					<rdf:li rdf:parseType="Resource">
+						<Iptc4xmpExt:LongList2>Single Property 2</Iptc4xmpExt:LongList2>
+					</rdf:li>
+					<rdf:li rdf:parseType="Resource">
+						<Iptc4xmpExt:LongList3>Single Property 3</Iptc4xmpExt:LongList3>
+					</rdf:li>
+					<rdf:li rdf:parseType="Resource">
+						<Iptc4xmpExt:LongList4>Single Property 4</Iptc4xmpExt:LongList4>
+					</rdf:li>
+					<rdf:li rdf:parseType="Resource">
+						<Iptc4xmpExt:LongList5>Single Property 5</Iptc4xmpExt:LongList5>
+					</rdf:li>
+					<rdf:li rdf:parseType="Resource">
+						<Iptc4xmpExt:LongList6>Single Property 6</Iptc4xmpExt:LongList6>
+					</rdf:li>
+					<rdf:li rdf:parseType="Resource">
+						<Iptc4xmpExt:LongList7>Single Property 7</Iptc4xmpExt:LongList7>
+					</rdf:li>
+					<rdf:li rdf:parseType="Resource">
+						<Iptc4xmpExt:LongList8>Single Property 8</Iptc4xmpExt:LongList8>
+					</rdf:li>
+					<rdf:li rdf:parseType="Resource">
+						<Iptc4xmpExt:LongList9>Single Property 9</Iptc4xmpExt:LongList9>
+					</rdf:li>
+					<rdf:li rdf:parseType="Resource">
+						<Iptc4xmpExt:LongList10>padding 0 for 10, 100, 1000 etc</Iptc4xmpExt:LongList10>
+					</rdf:li>
+				</rdf:Bag>
+			</Iptc4xmpExt:LongList>
+			<Iptc4xmpExt:SingleBag>
+				<rdf:Bag>
+					<rdf:li rdf:parseType="Resource">
+						<Iptc4xmpExt:SingleProperty>Bag with only one List (no number added)</Iptc4xmpExt:SingleProperty>
+					</rdf:li>
+				</rdf:Bag>
+			</Iptc4xmpExt:SingleBag>
+			<Iptc4xmpExt:SingleBagWithBags>
+				<rdf:Bag>
+					<rdf:li rdf:parseType="Resource">
+						<Iptc4xmpExt:NestedBagLevel1>
+							<rdf:Bag>
+								<rdf:li rdf:parseType="Resource">
+									<Iptc4xmpExt:LongList0>Single Property 0</Iptc4xmpExt:LongList0>
+								</rdf:li>
+								<rdf:li rdf:parseType="Resource">
+									<Iptc4xmpExt:LongList1>Single Property 1</Iptc4xmpExt:LongList1>
+								</rdf:li>
+								<rdf:li rdf:parseType="Resource">
+									<Iptc4xmpExt:LongList2>Single Property 2</Iptc4xmpExt:LongList2>
+								</rdf:li>
+								<rdf:li rdf:parseType="Resource">
+									<Iptc4xmpExt:LongList3>Single Property 3</Iptc4xmpExt:LongList3>
+								</rdf:li>
+								<rdf:li rdf:parseType="Resource">
+									<Iptc4xmpExt:LongList4>Single Property 4</Iptc4xmpExt:LongList4>
+								</rdf:li>
+								<rdf:li rdf:parseType="Resource">
+									<Iptc4xmpExt:LongList5>Single Property 5</Iptc4xmpExt:LongList5>
+								</rdf:li>
+								<rdf:li rdf:parseType="Resource">
+									<Iptc4xmpExt:LongList6>Single Property 6</Iptc4xmpExt:LongList6>
+								</rdf:li>
+								<rdf:li rdf:parseType="Resource">
+									<Iptc4xmpExt:LongList7>Single Property 7</Iptc4xmpExt:LongList7>
+								</rdf:li>
+								<rdf:li rdf:parseType="Resource">
+									<Iptc4xmpExt:LongList8>Single Property 8</Iptc4xmpExt:LongList8>
+								</rdf:li>
+								<rdf:li rdf:parseType="Resource">
+									<Iptc4xmpExt:LongList9>Single Property 9</Iptc4xmpExt:LongList9>
+								</rdf:li>
+								<rdf:li rdf:parseType="Resource">
+									<Iptc4xmpExt:LongList10>padding 0 for 10, 100, 1000 etc</Iptc4xmpExt:LongList10>
+								</rdf:li>
+							</rdf:Bag>
+						</Iptc4xmpExt:NestedBagLevel1>
+					</rdf:li>
+				</rdf:Bag>
+			</Iptc4xmpExt:SingleBagWithBags>
+		</rdf:Description>
+	</rdf:RDF>
+</x:xmpmeta>
