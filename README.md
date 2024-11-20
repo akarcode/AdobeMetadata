@@ -11,8 +11,8 @@ After running the function any parameter can be read from the $AdobeMetadata var
 - A specific value: **$AdobeMetaData['Basic']['CreatorTool']**
 
 Two options are available
-- To output the XMP data: **OutputXMP**
-- **$AdobeMetadata = Get-AdobeMetadata -AdobeFile $AdobeFile -ExifTool $ExifTool -OutputXMP**
+- To output the XMP data: **OutputXMP**<br />
+**$AdobeMetadata = Get-AdobeMetadata -AdobeFile $AdobeFile -ExifTool $ExifTool -OutputXMP**
 - To output a formatted text file: **OutputTXT**
 - **$AdobeMetadata = Get-AdobeMetadata -AdobeFile $AdobeFile -ExifTool $ExifTool -OutputTXT**
 
