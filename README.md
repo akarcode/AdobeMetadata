@@ -7,8 +7,8 @@ The functions can be used for Adobe automation. This will either grab the XMP da
 **$AdobeMetadata = Get-AdobeMetadata -AdobeFile $AdobeFile -ExifTool $ExifTool**
 
 After running the function any parameter can be read from the $AdobeMetadata variable:
-- For a category: **$AdobeMetaData['Basic']**
-- A specific value: **$AdobeMetaData['Basic']['CreatorTool']**
+- For a category: **$AdobeMetadata['Basic']**
+- A specific value: **$AdobeMetadata['Basic']['CreatorTool']**
 
 Two options are available
 - To output the XMP data: **OutputXMP**<br />
